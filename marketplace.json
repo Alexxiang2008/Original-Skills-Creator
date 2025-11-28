@@ -1,0 +1,66 @@
+{
+  "name": "skill-creator",
+  "displayName": "Skill Creator",
+  "version": "1.0.0",
+  "description": "Advanced tool for creating, validating, and managing Claude Code skills with interactive templates and best practices",
+  "author": {
+    "name": "Alexxiang2008",
+    "url": "https://github.com/Alexxiang2008"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexxiang2008/Original-Skills-Creator"
+  },
+  "license": "MIT",
+  "category": "Development",
+  "tags": [
+    "skill-creation",
+    "development",
+    "automation",
+    "templates",
+    "cli",
+    "tools"
+  ],
+  "capabilities": [
+    "Interactive skill creation with guided prompts",
+    "Rich template library for common use cases",
+    "Automatic validation of skill structure",
+    "Best practices enforcement",
+    "Marketplace metadata generation",
+    "Example generation"
+  ],
+  "requirements": {
+    "tools": ["Read", "Write", "Grep", "Glob"],
+    "optional_tools": ["Bash", "WebSearch"]
+  },
+  "installation": {
+    "method": "git",
+    "command": "git clone https://github.com/Alexxiang2008/Original-Skills-Creator.git ~/.claude/skills/skill-creator"
+  },
+  "usage": {
+    "triggers": [
+      "create a skill",
+      "help me build a skill",
+      "I need a skill for",
+      "generate a skill",
+      "validate my skill"
+    ],
+    "examples": [
+      "Help me create a code review skill",
+      "I need a skill template for API integration",
+      "Create a skill that processes CSV files",
+      "Validate my existing skill structure"
+    ]
+  },
+  "documentation": {
+    "readme": "README.md",
+    "examples": "examples/",
+    "bestPractices": "docs/best-practices.md"
+  },
+  "metadata": {
+    "difficulty": "beginner",
+    "estimatedTime": "5-15 minutes",
+    "interactive": true,
+    "outputFormats": ["SKILL.md", "marketplace.json", "README.md"]
+  }
+}
