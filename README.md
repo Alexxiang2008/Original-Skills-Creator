@@ -1,6 +1,6 @@
 <div align="center">
 
-# Claude Skills Creator 🚀		# Claude Skills Creator 🚀
+# Claude Skills Creator 🚀	
 
 
 > Advanced tool for creating, managing, and sharing Claude Code skills with ease		### 强大的 Claude Code 技能创建工具
